@@ -1,0 +1,21 @@
+---
+output: html_document
+---
+
+```{r echo=FALSE}
+name <- distribution_list$name[i]
+report <- distribution_list$report_name[i]
+location <- distribution_list$location[i]
+```
+
+Dear `r name`,
+
+An update has occurred to the continuous monitoring report titled `r report`, which is available for your review at'r location'.
+
+Kindly review, 
+
+Kels Farmer, MBA, PMP, CISA
+Program Manager, BVTI Audit and Analytics 
+Dept. of Veterans Affairs, Financial Services Center
+Office: 512-460-5020
+Mobile: 512-695-2732
